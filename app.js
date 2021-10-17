@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const app = express();
 dotenv.config({ path:'./config.env' })
 // 2nd step of heroku
-const port = process.env.PORT || 5000;  
+const port = process.env.PORT || 8000;  
 require('./db/conn')
 
 app.use(express.json());
